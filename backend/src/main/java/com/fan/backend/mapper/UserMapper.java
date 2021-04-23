@@ -1,8 +1,8 @@
-package com.example.demo1.mapper;
+package com.fan.backend.mapper;
 
 
 import org.apache.ibatis.annotations.Mapper;
-import com.example.demo1.model.User;
+import com.fan.backend.model.User;
 import org.apache.ibatis.annotations.Param;
 
 @Mapper

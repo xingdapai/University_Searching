@@ -3,7 +3,9 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.st.demo.dao.RoommateDAO">
     <sql id="table">user</sql>
-    <sql id="selectFields">userId, userName, userPassword, userEmail, userSex, userTelNumber, userBirthday, userNation, userDistrict</sql>
+    <sql id="selectFields">userId, userName, userPassword, userEmail, userSex, userTelNumber, userBirthday, userNation,
+        userDistrict
+    </sql>
     <select id="getUserById" resultType="import com.example.demo.com.example.demo.model.User">
         SELECT
         <include refid="selectFields"/>

@@ -1,8 +1,8 @@
-package com.example.demo1.controller;
+package com.fan.backend.controller;
 
 
-import com.example.demo1.service.UserService;
-import com.example.demo1.utils.Util;
+import com.fan.backend.service.UserService;
+import com.fan.backend.utils.Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
